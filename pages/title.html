@@ -22,10 +22,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html"> <button class="btn btn-outline-success my-2 my-sm-0 textc "  type="logout"><b>Log Out</b></button></a>
+              <a class="nav-link" href="/index.html"> <button class="btn btn-outline-success my-2 my-sm-0 textc " type="logout"><b>Log Out</b></button></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><img  class="imgavatar"  src="/pages/image/img.png" alt="Avatar" width="50" height="50"></a>
+              <a class="nav-link" href="#"><img  class="imgavatar"  src="/pages/image/IMG_20220808_165022516 (1).jpg" alt="Avatar" width="50" height="50"></a>
               
             </li>
             
@@ -58,24 +58,31 @@
         <div class="modal-body ">
           
           <label for="title">Title:</label><br>
-          <input type="text" id="title" name="title"  maxlength="50" required style="width: 76%;"><br>
-
-          <label for="title">Date:</label><br>
+          <input type="text" id="title" name="title"><br>
           
+          <div class="main-agileinfo">
+            <label for="title">Sr No:</label><br>
+            <input type="serial" id="serial_number">
+            
+            <br>
+          <label for="title">Date:</label><br>
+          <input type="date" id="due_date" ><br>
+
+
 <label for="textarea"> Description:</label><br>
      <textarea id="textarea" cols="45" rows="5" placeholder="write here..."></textarea>
 
         </div>
         <div class="modal-footer ">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <a href="/pages/title.html"><button type="button" class="btn btn-outline-success my-2 my-sm-0 textc">Save</button></a>
+          <a href="/pages/title.html"><button type="button" class="btn btn-outline-success my-2 my-sm-0 textc">Save!</button></a>
         </div>
       </div>
     </div>
   </div>
 </div>
 </div>
-
+</div>
 </div><br>
  
 <div class="container">
@@ -90,11 +97,12 @@
   </div>
 </div><br><br>
 
-<table class="table  table-borderless" style="margin-left: 12%;">
+<table class="table  table-borderless" style="margin-left: 11%;">
   <thead>
     <tr>
       <th scope="col"><b>Sr#</b></th>
       <th scope="col"><b>Title</b></th>
+      <th scope="col"><b>Date:</b></th>
       <th scope="col"><b>Url</b></th>
       <th scope="col"><b>Description</b></th>
     </tr>
@@ -104,19 +112,21 @@
       <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
+      <td>https:#</td>
       <td>@mdo</td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
+      <td>https:#</td>
       <td>@fat</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <!-- <td colspan="2">Larry the Bird</td> -->
       <td>Jacob</td>
       <td>Thornton</td>
+      <td>https:#</td>
       <td>@twitter</td>
     </tr>
   </tbody>

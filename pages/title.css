@@ -1,0 +1,33 @@
+body{
+    background-color: lightgrey;
+}
+  /* .imgavatar {
+    border-radius: 50%;
+  } */
+  .textc{
+    color: black;
+    border-color: black;
+  
+  }
+  .navcolor{
+    background-color: grey;
+  }
+ 
+  .textcc{
+    color: black;
+    border-color: black;
+  }
+  .btnmodal{
+    margin-left: 70%;
+    margin-top: 3%;
+  }
+  .popup{
+    background-color: lightgray;
+  }
+  .pop{
+    background-color: lightgray;
+  }
+  .pop1{
+    background-color: gray;
+  }
+  
